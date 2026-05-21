@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Works | The Midfielder Portfolio</title>
+  <meta name="description" content="실제 프로젝트와 문서, 제안, 운영 구조를 확인할 수 있는 작업물 아카이브">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Global Navigation -->
+  <header class="site-header">
+    <nav class="site-nav">
+      <a class="brand" href="index.html"><span class="brand-dot"></span><span>THE MIDFIELDER</span></a>
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="profile.html#stats">Core Stats</a>
+        <a href="records.html">Records</a>
+        <a class="active" href="works.html">Works</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow reveal">실제 프로젝트와 문서, 제안, 운영 구조를 확인할 수 있는 작업물 아카이브</p>
+        <h1 class="reveal">Portfolio Works</h1>
+      </div>
+    </section>
+
+    <!-- Works Filter -->
+    <section class="section works-section">
+      <div class="container">
+        <div class="filter-tabs reveal" aria-label="작업물 필터">
+          <button class="filter-btn active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="planning">Planning</button>
+          <button class="filter-btn" type="button" data-filter="operation">Operation</button>
+          <button class="filter-btn" type="button" data-filter="legal">Legal</button>
+          <button class="filter-btn" type="button" data-filter="marketing">Marketing</button>
+          <button class="filter-btn" type="button" data-filter="ai">AI</button>
+        </div>
+
+        <div class="works-grid">
+          <article class="work-card reveal" data-category="planning marketing">
+            <span class="work-category">Planning</span>
+            <h2>반별 광고센터 기획안</h2>
+            <dl>
+              <div><dt>내 역할</dt><dd>서비스 구조 정리, 기획안 문서화</dd></div>
+              <div><dt>핵심 성과</dt><dd>광고 운영 흐름을 제안 가능한 형태로 정리</dd></div>
+              <div><dt>사용 도구</dt><dd>PowerPoint, Google Docs, ChatGPT</dd></div>
+            </dl>
+            <button class="text-button" type="button">자세히 보기</button>
+          </article>
+          <article class="work-card reveal" data-category="ai marketing">
+            <span class="work-category">AI</span>
+            <h2>다낭 카지노 컨시어지 웹사이트</h2>
+            <dl>
+              <div><dt>내 역할</dt><dd>클라이언트 요구 정리, AI 제작 프롬프트 설계</dd></div>
+              <div><dt>핵심 성과</dt><dd>요청사항을 웹페이지 구조와 문구 단위로 전환</dd></div>
+              <div><dt>사용 도구</dt><dd>Codex, ChatGPT, HTML/CSS</dd></div>
+            </dl>
+            <button class="text-button" type="button">자세히 보기</button>
+          </article>
+          <article class="work-card reveal" data-category="legal planning">
+            <span class="work-category">Legal</span>
+            <h2>제안서/계약서 샘플</h2>
+            <dl>
+              <div><dt>내 역할</dt><dd>협의 내용 정리, 초안 구성</dd></div>
+              <div><dt>핵심 성과</dt><dd>검토와 수정이 쉬운 문서 구조로 정리</dd></div>
+              <div><dt>사용 도구</dt><dd>Word, Google Docs, Notion</dd></div>
+            </dl>
+            <button class="text-button" type="button">자세히 보기</button>
+          </article>
+          <article class="work-card reveal" data-category="operation">
+            <span class="work-category">Operation</span>
+            <h2>운영 구조 문서</h2>
+            <dl>
+              <div><dt>내 역할</dt><dd>업무 흐름, 담당자, 확인 기준 정리</dd></div>
+              <div><dt>핵심 성과</dt><dd>반복 확인이 가능한 운영 기준 구축</dd></div>
+              <div><dt>사용 도구</dt><dd>Notion, Slack, Google Workspace</dd></div>
+            </dl>
+            <button class="text-button" type="button">자세히 보기</button>
+          </article>
+          <article class="work-card reveal" data-category="operation ai">
+            <span class="work-category">Operation</span>
+            <h2>QA 요청서</h2>
+            <dl>
+              <div><dt>내 역할</dt><dd>오류와 추가개발 요청 분리, 체크리스트화</dd></div>
+              <div><dt>핵심 성과</dt><dd>개발/운영 요청사항의 확인 편의성 개선</dd></div>
+              <div><dt>사용 도구</dt><dd>Notion, Spreadsheet, Slack</dd></div>
+            </dl>
+            <button class="text-button" type="button">자세히 보기</button>
+          </article>
+          <article class="work-card reveal" data-category="planning operation">
+            <span class="work-category">Template</span>
+            <h2>회의록/템플릿 샘플</h2>
+            <dl>
+              <div><dt>내 역할</dt><dd>회의 내용 구조화, 액션 아이템 정리</dd></div>
+              <div><dt>핵심 성과</dt><dd>논의 내용을 실행 항목으로 연결</dd></div>
+              <div><dt>사용 도구</dt><dd>Clova Note, Notion, Google Docs</dd></div>
+            </dl>
+            <button class="text-button" type="button">자세히 보기</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section final-cta">
+      <div class="container cta-card reveal">
+        <p class="eyebrow">Ready for the Next Match</p>
+        <h2>다음 경기에서도, 구조는 더 선명하게.</h2>
+        <p>실행은 더 빠르게. 결과는 더 안정적으로 만들겠습니다.</p>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="mailto:your-email@example.com">Contact Me</a>
+          <a class="btn btn-ghost" href="records.html">View Match Records</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
