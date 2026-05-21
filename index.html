@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Midfielder Portfolio</title>
+  <meta name="description" content="경영지원, 대표실 보좌, 운영지원 포지션을 위한 Business Midfielder 포트폴리오">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Site Navigation -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#hero" aria-label="Business Midfielder home">
+        <span class="brand-mark"></span>
+        <span>Business Midfielder</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#profile">Profile</a>
+        <a href="#abilities">Abilities</a>
+        <a href="#records">Records</a>
+        <a href="#playbook">Playbook</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="hero">
+      <div class="pitch-pattern" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="kpi-row" aria-label="핵심 요약">
+            <a class="kpi-card accent-green" href="#profile">
+              <span>역할</span>
+              <strong>비즈니스 미드필더</strong>
+              <small>조직의 빈 공간을 메우는 실무형 운영 파트너</small>
+            </a>
+            <a class="kpi-card accent-blue" href="#abilities">
+              <span>핵심 역량</span>
+              <strong>6개 지표 특화</strong>
+              <small>상황 판단 · 전달력 · 구조화 · 커버리지 · 대응력 · 검수</small>
+            </a>
+            <a class="kpi-card accent-gold" href="#records">
+              <span>프로젝트 기록</span>
+              <strong>8개 경기 완수</strong>
+              <small>법무 · 시스템 · QA · 콘텐츠 · 운영 · 협업 · 계약 · AI</small>
+            </a>
+          </div>
+
+          <p class="eyebrow">Executive Support · Business Operations</p>
+          <h1>Business Midfielder</h1>
+          <p class="hero-lead">흐름을 읽고, 빈 공간을 메우고, 팀을 전진시킵니다.</p>
+          <p class="hero-copy">
+            콘텐츠, 행사, 계약, 일정, 개발 요청, 협업툴, AI 제작까지.
+            필요한 위치를 빠르게 파악하고, 흩어진 업무를 실행 가능한 구조로 바꾸는 실무형 비즈니스 미드필더입니다.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#records">View Match Records</a>
+            <a class="btn secondary" href="#playbook">See Playbook</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="tactical-board reveal" aria-label="업무 흐름 전술판">
+          <svg viewBox="0 0 420 520" role="img" aria-labelledby="board-title board-desc">
+            <title id="board-title">Business midfielder tactical board</title>
+            <desc id="board-desc">업무 영역을 연결하는 전술판 형태의 라인 그래픽</desc>
+            <rect class="pitch-frame" x="36" y="34" width="348" height="452" rx="24"></rect>
+            <line class="pitch-line" x1="36" y1="260" x2="384" y2="260"></line>
+            <circle class="pitch-line" cx="210" cy="260" r="64"></circle>
+            <rect class="pitch-line" x="124" y="34" width="172" height="82" rx="14"></rect>
+            <rect class="pitch-line" x="124" y="404" width="172" height="82" rx="14"></rect>
+            <path class="route route-a" d="M118 366 C164 318, 162 216, 210 260 C260 306, 290 210, 310 148"></path>
+            <path class="route route-b" d="M112 166 C166 214, 224 174, 210 260 C196 350, 276 356, 318 374"></path>
+            <path class="route route-c" d="M210 260 C188 226, 230 198, 268 236 C304 272, 274 318, 210 260"></path>
+            <g class="node-group">
+              <circle class="node green" cx="210" cy="260" r="12"></circle>
+              <circle class="node blue" cx="112" cy="166" r="8"></circle>
+              <circle class="node gold" cx="310" cy="148" r="8"></circle>
+              <circle class="node blue" cx="118" cy="366" r="8"></circle>
+              <circle class="node green" cx="318" cy="374" r="8"></circle>
+              <circle class="node gold" cx="268" cy="236" r="7"></circle>
+            </g>
+          </svg>
+          <div class="board-note">
+            <span>Flow Map</span>
+            <strong>정보 · 사람 · 실행 항목을 연결</strong>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#profile">Scroll to explore</a>
+    </section>
+
+    <!-- Player Profile Section -->
+    <section class="section" id="profile">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Player Profile</p>
+          <h2>조직이 지금 필요로 하는 위치를 먼저 봅니다.</h2>
+        </div>
+        <div class="profile-card reveal">
+          <p>
+            저는 직무의 경계보다 조직이 지금 필요로 하는 위치를 먼저 봅니다.
+            법무법인에서는 치명적인 기일 누락을 크로스체크로 발견했고, 스타트업에서는 콘텐츠 제작, 행사 운영, 계약·MOU 관리, 개발 요청 문서화, 노션·Slack 기반 협업 구조 개선까지 수행했습니다.
+          </p>
+          <p>
+            흩어진 업무를 정리하고, 필요한 사람과 정보를 연결하며, 실행 가능한 구조로 만드는 데 강점이 있습니다.
+          </p>
+          <blockquote>흩어진 업무를 구조화해 실행으로 연결하는 사람.</blockquote>
+          <p>
+            축구로 치면 박스 투 박스 미드필더처럼, 필요한 위치로 움직이며 팀의 흐름이 끊기지 않도록 연결합니다.
+            비유는 기억을 돕는 장치이고, 핵심은 실제 업무를 안정적으로 정리하고 실행하는 역량입니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Abilities Section -->
+    <section class="section" id="abilities">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <p class="eyebrow">Key Abilities</p>
+            <h2>6개 지표로 보는 운영형 미드필더 역량</h2>
+          </div>
+          <div class="view-toggle" role="tablist" aria-label="능력치 보기 방식">
+            <button class="toggle-btn active" type="button" data-view="radar" role="tab" aria-selected="true">Radar View</button>
+            <button class="toggle-btn" type="button" data-view="pitch" role="tab" aria-selected="false">Pitch View</button>
+          </div>
+        </div>
+
+        <div class="ability-visual reveal">
+          <div class="view-panel active" id="radar-view">
+            <div class="radar-wrap">
+              <svg id="radar-chart" viewBox="0 0 520 520" aria-label="6개 핵심 역량 레이더 차트"></svg>
+            </div>
+          </div>
+          <div class="view-panel" id="pitch-view">
+            <div class="mini-pitch" aria-label="업무 커버리지 미니맵">
+              <span class="pitch-badge executive">대표실 / 경영진 보좌</span>
+              <span class="pitch-badge operation">운영 / 총무</span>
+              <span class="pitch-badge docs">문서화 / 계약</span>
+              <span class="pitch-badge content">마케팅 / 콘텐츠</span>
+              <span class="pitch-badge qa">개발 협업 / QA</span>
+              <span class="pitch-badge ai">시스템화 / AI 활용</span>
+              <span class="midfielder-dot">BM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="ability-grid">
+          <article class="info-card reveal">
+            <span>01</span>
+            <h3>Game Reading — 상황 판단력</h3>
+            <p>복잡한 요청과 일정 속에서 전체 흐름을 읽고 우선순위를 정리합니다.</p>
+          </article>
+          <article class="info-card reveal">
+            <span>02</span>
+            <h3>Passing Accuracy — 명확한 전달력</h3>
+            <p>임원, 거래처, 개발자, 협력사 사이에서 오해 없이 전달되는 문서와 메시지를 만듭니다.</p>
+          </article>
+          <article class="info-card reveal">
+            <span>03</span>
+            <h3>Box-to-Box Coverage — 업무 커버리지</h3>
+            <p>콘텐츠, 행사, 계약, 일정, 총무, 개발 요청까지 폭넓게 대응합니다.</p>
+          </article>
+          <article class="info-card reveal">
+            <span>04</span>
+            <h3>Build-up — 구조화 능력</h3>
+            <p>흩어진 자료와 구두 요청을 제안서, 체크리스트, 노션 템플릿으로 정리합니다.</p>
+          </article>
+          <article class="info-card reveal">
+            <span>05</span>
+            <h3>Press Resistance — 변수 대응력</h3>
+            <p>급한 일정, 누락 위험, 외부 요청 속에서도 침착하게 우선순위를 잡고 대응합니다.</p>
+          </article>
+          <article class="info-card reveal">
+            <span>06</span>
+            <h3>Finishing Support — 마무리와 검수</h3>
+            <p>실행 후 확인, 피드백 정리, 개선안 도출까지 놓치지 않습니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Match Records Section -->
+    <section class="section" id="records">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <p class="eyebrow">8개 경기 완수</p>
+            <h2>Match Records</h2>
+          </div>
+          <p class="section-summary">실제 업무에서 문제를 발견하고, 흐름을 정리하고, 실행 가능한 구조로 전환한 주요 프로젝트 기록입니다.</p>
+        </div>
+        <div class="records-list" id="records-list"></div>
+      </div>
+    </section>
+
+    <!-- Playbook Section -->
+    <section class="section" id="playbook">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">My Playbook</p>
+          <h2>흐름을 읽고 구조를 만든 뒤 실행으로 연결합니다.</h2>
+          <p>제가 업무를 처리하는 방식은 단순히 일을 받아서 처리하는 것이 아니라, 흐름을 읽고 구조를 만든 뒤 실행 가능하도록 연결하는 과정입니다.</p>
+        </div>
+        <div class="playbook-line reveal" aria-label="5단계 업무 프로세스">
+          <article class="step-card">
+            <span>01</span>
+            <h3>Read the Field</h3>
+            <p>상황, 이해관계자, 목적, 우선순위를 파악합니다.</p>
+          </article>
+          <article class="step-card">
+            <span>02</span>
+            <h3>Connect the Pass</h3>
+            <p>필요한 사람, 정보, 문서를 연결합니다.</p>
+          </article>
+          <article class="step-card">
+            <span>03</span>
+            <h3>Build the Structure</h3>
+            <p>구두 요청과 흩어진 자료를 제안서, 체크리스트, 노션 템플릿, 운영 문서로 구조화합니다.</p>
+          </article>
+          <article class="step-card">
+            <span>04</span>
+            <h3>Move to Execution</h3>
+            <p>일정, 담당자, 실행 항목, 검수 기준을 정리합니다.</p>
+          </article>
+          <article class="step-card">
+            <span>05</span>
+            <h3>Review & Improve</h3>
+            <p>결과를 확인하고, 반복 가능한 템플릿과 개선 포인트를 남깁니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Evidence Section -->
+    <section class="section" id="evidence">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <p class="eyebrow">Evidence</p>
+            <h2>말보다 결과물로 증명합니다.</h2>
+          </div>
+          <p class="section-summary">실제 업무에서 만든 체크리스트, 노션 템플릿, 협업 구조, 콘텐츠 자료를 통해 역량을 보여줍니다.</p>
+        </div>
+        <div class="evidence-grid" id="evidence-grid"></div>
+      </div>
+    </section>
+
+    <!-- Tools & Equipment Section -->
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Tools & Equipment</p>
+          <h2>업무를 전진시키는 도구와 실행 역량</h2>
+        </div>
+        <div class="tool-cloud reveal" aria-label="도구와 역량 태그">
+          <span>Executive Support</span>
+          <span>Business Documentation</span>
+          <span>Legal Schedule Management</span>
+          <span>Contract / MOU Drafting</span>
+          <span>Event Operation</span>
+          <span>Content Production</span>
+          <span>Blog / SNS Operation</span>
+          <span>Notion</span>
+          <span>Slack</span>
+          <span>Google Workspace</span>
+          <span>QA Documentation</span>
+          <span>ChatGPT Workflow</span>
+          <span>Codex Prompting</span>
+          <span>AI Coding Agent</span>
+          <span>Prompt Direction</span>
+          <span>Client Communication</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Ready for the Next Match?</h2>
+        <p>복잡한 업무를 정리하고, 필요한 사람과 정보를 연결하며, 실행 가능한 구조로 만드는 일을 합니다.</p>
+        <p class="muted">경영지원, 대표실 보좌, 운영지원, 비서 직무에서 조직의 흐름을 더 빠르고 명확하게 만드는 역할을 하고 싶습니다.</p>
+        <a class="btn primary" href="mailto:your-email@example.com">Contact Me</a>
+        <div class="email-placeholder">your-email@example.com</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Evidence Modal -->
+  <div class="modal" id="evidence-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" aria-label="모달 닫기" data-close-modal>&times;</button>
+      <div class="modal-image" id="modal-image"></div>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
